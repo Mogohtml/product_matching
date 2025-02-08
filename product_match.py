@@ -105,3 +105,4 @@ if __name__ == "__main__":
     shop_file = r"D:\Учеба\shop_items.xlsx"
     supplier_file = r"D:\Учеба\supplier_items.xlsx"
     main(shop_file, supplier_file)
+
