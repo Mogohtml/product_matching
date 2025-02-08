@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="222ff324-c343-406e-a493-8f637d528de2" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/product_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_match.py" afterDir="false" />
+    <list default="true" id="222ff324-c343-406e-a493-8f637d528de2" name="Changes" comment="Вспомогательный файл">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product_match.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mogohtml/product_matching.git",
-    "accountId": "3b57520d-3972-4217-844a-32badea7faee"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mogohtml&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mogohtml/product_matching.git&quot;,
+    &quot;accountId&quot;: &quot;3b57520d-3972-4217-844a-32badea7faee&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2skRqGFjF5lK0lapb514S9IzWPe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,13 +49,13 @@
     "Python.product_match.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Учеба\PycharProjects\product_matching" />
       <recent name="D:\Учеба\PycharProjects\product_matching\src" />
+      <recent name="D:\Учеба\PycharProjects\product_matching" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -91,13 +98,38 @@
       <option name="project" value="LOCAL" />
       <updated>1739004583754</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1739004665665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739004665665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Основной файл с кодом">
+      <option name="closed" value="true" />
+      <created>1739004771230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739004771230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Вспомогательный файл">
+      <option name="closed" value="true" />
+      <created>1739004811559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739004811559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Основной файл с кодом" />
     <MESSAGE value="Зависимости" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Основной файл с кодом" />
+    <MESSAGE value="Вспомогательный файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вспомогательный файл" />
   </component>
 </project>
