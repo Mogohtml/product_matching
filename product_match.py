@@ -82,7 +82,6 @@ def main(shop_file, supplier_file):
     supplier_df[['Название', 'Цена']] = supplier_df['прайс'].apply(lambda x: pd.Series(extract_product_info(x)))
     supplier_df = supplier_df.dropna(subset=['Название', 'Цена']).reset_index(drop=True)
 
-    # Convert 'Цена' column to numeric
     supplier_df['Цена'] = pd.to_numeric(supplier_df['Цена'], errors='coerce')
 
     matched_items = match_items(shop_df, supplier_df)
@@ -90,7 +89,6 @@ def main(shop_file, supplier_file):
     # Преобразование списка сопоставленных товаров в DataFrame
     result_df = pd.DataFrame(matched_items)
 
-    # Reorder columns to match the expected format
     result_df = result_df[[
         "Артикул", "Внешний код", "Новое название", "Статус", "Есть на складе?", "Дней на складе",
         "Себестоимость", "Кол-во", "Продаж за 30 дней", "Продаж за неделю", "Дата последней продажи",
